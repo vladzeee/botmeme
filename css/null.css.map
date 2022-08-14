@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,EAAE,EAAC,CAAC,CAAC;EAClB,MAAM,EAAE,CAAC;CAAG",
+    "sources": [
+        "../sass/null.sass"
+    ],
+    "names": [],
+    "file": "null.css"
+}

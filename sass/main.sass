@@ -1,0 +1,86 @@
+@import "null.sass"
+$cl: #1B1D21
+$cbtn: #4E89FF
+
+div
+  box-sizing: border-box
+
+.body
+  font-family: 'M PLUS 1p', sans-serif
+  background: #F5F7FB
+  font-weight: 400
+  color: $cl
+  font-size: 16px
+.container
+  width: 1330px
+  margin: 0 auto
+.header
+  padding-bottom: 28px
+  &__menu
+    display: flex
+    justify-content: space-between
+    align-items: center
+  &__logo
+    width: 122px
+    height: 54px
+  &__menu-list 
+    display: flex
+    justify-content: space-between
+    width: 540px
+    margin: 0
+    align-items: center
+  &__menu-item
+    list-style-type: none
+  &__menu-link
+    text-decoration: none
+    font-weight: 500
+    font-size: 20px
+    color: $cl
+.hero
+  .container 
+    display: flex
+    justify-content: space-between
+.message
+  display: flex
+  align-items: center
+  width: 345px
+  padding-top: 24px
+  padding-bottom: 23px
+  padding-left: 23px
+  background: #fff
+  border-radius: 30px
+  &-list 
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+  &__avatar 
+    width: 65px
+    height: 65px
+    padding-right: 30px
+  &__name 
+    font-size: 16px
+    font-weight: 500
+  &__text
+    font-size: 11px
+    color: #6B717E
+  &-window 
+    width: 916px
+    height: 668px
+    background: #fff
+    border-radius: 30px
+.choice-message
+  &__wrapper 
+    width: 345px
+    padding-top: 23px
+    padding-left: 50.5px
+    padding-right: 50.5px
+    padding-bottom: 23px
+    background: #fff
+    border-radius: 30px
+    margin-top: 22px
+  &__btn 
+    width: 244px
+    padding: 26px 0 26px 44px
+    background: $cbtn
+    border-radius: 30px 0 30px 30px
+    color: #E4EDFF
